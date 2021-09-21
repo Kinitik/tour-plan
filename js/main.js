@@ -3,6 +3,11 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
 
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
   // Navigation arrows
   navigation: {
     nextEl: ".slider-button--next",
