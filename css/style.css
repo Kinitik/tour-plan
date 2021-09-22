@@ -633,9 +633,9 @@ template {
   background-image: url(../img/arrow-prev.svg);
 }
 
-.hotel-photo {
-  width: 100%;
+.swiper-slide__image {
   height: 100%;
+  width: 100%;
 }
 
 .stars {
